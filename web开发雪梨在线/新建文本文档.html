@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>雪梨在线</title>
+	<style>
+	/*重置浏览器样式*/
+	* {
+    	padding: 0;
+    	margin: 0;
+	}
+        .one {
+            text-decoration: none;
+            color: black;
+        }
+        .mm {
+            text-decoration: none;
+            color:rgba(0,164,255,1) ;
+        }
+		.two {
+            text-decoration: none;
+            color: white;
+        }
+	ul {
+    	list-style-type: none;
+		}
+
+/*清除浮动*/
+	.clear:after {
+    	content: '';
+    	display: block;
+   		height: 0;
+   		clear: both;
+		}
+		.header-bottom{
+			height: 101px;
+		}
+		.container{
+			width: 1179px;
+			margin: 0 auto;
+		}
+		.xue{
+			float: left;
+			width:170px;
+			height:39px;
+			font-size:40px;
+			font-family:Microsoft YaHei;
+			font-weight:bold;
+			color:rgba(0,164,255,1);
+			padding-top: 33px;
+		}
+		.nav{
+			float: left;
+			margin-top: 45px;
+		}
+		.nav>li{
+			float: left;
+			text-align: center;
+			width: 80px;
+			font-size: 18px;
+			height: 38px;
+			line-height: 33px;
+			position: relative;
+		}
+		.first:hover {
+            border-bottom: 2px solid rgba(0,164,255,1);
+        }
+		.form{
+			float: left;
+            margin-top: 35px;
+            margin-left: 157px;
+		}
+		.second{
+			margin-left: 79px;
+		}
+		.third{
+			margin-left: 22px;
+		}
+		.search{
+			float: left;
+			width: 322px;
+			height: 30px;
+			padding-top: 10px;
+			padding-left: 19px;
+			border:1px solid rgba(0,164,255,1);
+		}
+		.submit{
+			float: left;
+			width: 51px;
+			height: 42px;
+			border:1px solid rgba(0,164,255,1);
+			background: rgba(0,164,255,1) url(fa-search.png) no-repeat center center ;
+}
+		
+		.ge{
+			float: right;
+			width:64px;
+			height:12px;
+			font-size:14px;
+			font-family:Microsoft YaHei;
+			font-weight:400;
+			color:rgba(102,102,102,1);
+			margin-top: 44px;
+			margin-left: 31px;
+		}
+		.seven{
+			height: 420px;
+			background-color:rgba(28,3,108,1); 
+		}
+		.eight{
+			margin: 0 auto;
+			height: 420px;
+			width: 1200px;
+		}
+		.nine{
+			background-color: rgba(0,0,0,0.03);
+			height: 1530px;
+		}
+		.ten{
+			height: 60px;
+		}
+		.oo2{
+			 position: relative;
+		}
+		.oo3{
+			position: absolute;
+			top:  3px;
+			height: 20px;
+			line-height: 48px;
+			left: 10px;
+		}
+		.oo3 li{
+			font-size: 12px;
+			width: 140px;
+			height: 47px;
+			line-height: 50px;
+			background-color: rgba(0,0,0,0.4);
+		}
+    .oo3 li:hover>a{
+        color: #00A4FF;
+    }
+    .last3{
+    	padding-bottom: 3px;
+    }
+		.dao{
+			width: 1200px;
+			height: 60px;
+			margin: 0 auto;
+			background-color: white;
+			position: relative;
+		}
+		.nav2>li{
+			float: left;
+			width: 122px;
+			text-align: center;
+			border-left: 1px solid rgba(0,0,0,0.2);
+			font-size: 16px;
+			height: 18px;
+			margin-top: 22px;
+		}
+		.kk{
+			color:rgba(0,164,255,1);
+			font-family:Microsoft YaHei;
+			font-weight:bold;
+		}
+		.last{
+			border: none;
+		}
+        .jing{
+        	float: right;
+        	font-size: 14px;
+        	height: 18px;
+        	color:rgba(0,164,255,1);
+        	position: relative;
+        	font-family:Microsoft YaHei;
+			font-weight:bold;
+        	bottom: 20px;
+        	right: 61px;
+        }
+        .leven{
+        	height: 76px;
+        }
+        .han{
+        	width: 1200px;
+        	margin: 0 auto;	
+        }
+        .han1{
+        	float: left;
+        	width:80px;
+			height:19px;
+			font-size:19px;
+			font-family:Microsoft YaHei;
+			font-weight:400;
+			margin-top: 37px;
+			color:rgba(73,73,73,1);
+        }
+        .han2{
+        	float: right;
+        	margin-top: 44px;
+        	margin-right: 31px;
+        	width:48px;
+			height:13px;
+			font-size:12px;
+			font-family:Microsoft YaHei;
+			font-weight:400;
+			color:rgba(165,165,165,1);
+        }
+        .nav4{
+        	float: left;
+        }
+        .tu>ul{
+        	float: left;
+        	/* padding-left: 5px; */
+        }
+        .tu{
+        	width: 1200px;
+        	margin: 0 auto;
+        }
+        .twle{
+        	height: 270px;
+        }
+        .img{
+        	width: 233px;
+        	height: 156px;
+        }
+        .zi{
+        	background-color: white;
+        	height: 115px;
+        }
+        .yi{
+			position: relative;
+			top: 20px;
+			left: 23px;
+        }
+        .yi2{
+        	position: relative;
+			top: 40px;
+			left: 23px;
+        }
+        .hh{
+        	margin-top: 18px;
+        }
+        .thirteen{
+        	height: 65px;
+        }
+        .next{
+        	height: 65px;
+        	width: 1200px;
+        	margin: 0 auto;
+        }
+        .nav6>li{
+			float: left;
+			font-size: 16px;
+        }
+       .nav6>li:hover a {
+            color:rgba(0,164,255,1) ;
+        }
+        .zi2{
+        	position: relative;
+        	top: 41px;
+        	width: 19px;
+        	color:#494949;
+        	font-size: 20px
+        }
+		.zi3{
+        	width:48px;
+			height:13px;
+			font-size:12px;
+			font-family:Microsoft YaHei;
+			font-weight:400;
+			color:rgba(165,165,165,1);
+			position: relative;
+			top: 45px;
+        	left: 860px;
+		}
+		.zi8{
+			font-size: 16px;
+			position: relative;
+			top: 45px;
+			left: 376px;
+			color:#00A4FF;
+		}
+		.zi7{
+			font-size: 16px;
+			position: relative;
+			top: 45px;
+			left: 298px;
+			color:rgba(165,165,165,1);
+		}
+		.zi9{
+			font-size: 16px;
+			position: relative;
+			top: 45px;
+			left: 446px;
+			color:rgba(165,165,165,1);
+		}
+		.zi10{
+			font-size: 16px;
+			position: relative;
+			top: 45px;
+			left: 516px;
+			color:rgba(165,165,165,1);
+		}
+		.hh1{
+			margin-top: 20px;
+		}
+		.fourth{
+			height: 65px;
+		}
+		.nav10{
+			height:65px ;
+			width: 1200px;
+			margin: 0 auto;
+		}
+		.nav11 li{
+			float: left;
+		}
+		.zi12
+		{
+			position: relative;
+			top: 35px;
+			width:80px;
+			height:19px;
+			font-size:20px;
+			font-family:Microsoft YaHei;
+			font-weight:400;
+			color:#494949
+		}
+		.five2{
+			height: 360px;
+		}
+		.tu2{
+			width: 1200px;
+			height: 360px;
+			margin: 0 auto;
+		}
+		.nav13 li{
+			float: left;
+			margin-top: 31px;
+		}
+		.img2{
+
+			margin-left: 10px;
+		}
+		.img3{
+
+			margin-left: 10px;
+		}
+		.img4{
+
+			margin-left: 10px;
+		}
+		.img6{
+			margin-left: 8px;
+		} 
+		.img10{
+			width: 229px;
+			height: 320px;
+		}
+		.img9{
+			width: 471px;
+			height: 320px;
+		}
+		.tu2 ul li{
+			position: relative;
+		}
+		 .nav51{
+            height: 100px;
+            width: 200px;
+            line-height: 23px;
+            background: rgba(0,0,0,0.4);
+            color: white;
+            position: absolute;
+            left: 10px;
+            right: 0;
+            bottom:0;
+            padding: 17px;
+            font-size: 20px;
+        }
+        .da{
+        	font-size: 18px;
+        	color: rgba(255,255,255,1);
+			}
+		.nav52{
+			font-size: 16px;
+        	color: rgba(255,255,255,0.8);
+		}
+        .nav53{
+        	font-size: 13px;
+        	color: rgba(255,255,255,0.8);
+        }
+		.lastt{
+			height: 471px;
+			background-color: white;
+		}
+		.secced{
+			margin: 0 auto;
+			width: 1200px;
+			height: 471px;
+		}
+		.secced ul{
+			float: left;
+		}
+		.nav139{
+			margin-top: 20px;
+		}
+		.nav141{
+			margin-top: 120px;
+		}
+		.nav140{
+			border: 1px solid rgba(0,164,255,1);
+			margin-top: 27px;
+			width:90px;
+			padding-left: 20px;
+			padding-top: 6px;
+			height:25px;
+			font-size:16px;
+			font-family:Microsoft YaHei;
+			font-weight:400;
+			color:rgba(0,164,255,1);
+			line-height:18px;
+		}
+		.guan{
+			margin-left: 278px;
+		}
+		.xin{
+			margin-left: 148px;
+		}
+		.he{
+			margin-left: 133px;
+		}
+		.nav142{
+			margin-top: 60px;
+			font-size: 16px;
+		}
+		.nav143{
+			font-size: 13px;
+			height: 12px;
+			margin-top: 5px;
+		}
+   </style>
+
+</head>
+<body>
+	<div class="header-bottom">
+            <div class="container clear">
+                <p class="xue">雪梨在线</p>
+                <ul class="nav clear">
+                    <li class="first second"><a href="#" class="one">首页</a>
+                     </li>
+                    <li class="first third"><a href="#" class="one">课程           </a></li>
+                    <li class="first third"><a href="#" class="one">职业规划     </a></li>
+
+                </ul>
+                <form class="form clear">
+                    <input type="text" placeholder="输入关键字" class="search" />
+                    <input type="button" class="submit" />
+                </form>
+                <a href="#" class="ge one">个人中心</a>
+            </div>
+        </div>
+        <div class="seven">
+        	<div class="eight clear">
+
+        		<ul class="oo">
+        		
+        			<li class="oo2"><img src="banner2.png">
+
+                 <ul class="erji oo3">
+            			<li><a href="#" class="two">&ensp;&ensp;前端开发&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;></a></li>
+            			<li><a href="#" class=" two">&ensp;&ensp;后端开发&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;></a></li>
+            			<li><a href="#" class=" two">&ensp;&ensp;移动开发&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;></a></li>
+            			<li><a href="#" class=" two">&ensp;&ensp;人工智能&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;></a></li>
+            			<li><a href="#" class=" two">&ensp;&ensp;商业预测&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;></a></li>
+            			<li><a href="#" class=" two">&ensp;&ensp;云计算&大数据&ensp;&ensp;&ensp;&ensp;></a></li>
+            			<li><a href="#" class=" two">&ensp;&ensp;运维&从测试&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;></a></li>
+            			<li><a href="#" class=" two">&ensp;&ensp;UI设计&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;></a></li>
+        			    <li class="last3"> <a href="#" class=" two">&ensp;&ensp;产品  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;></a></li> 
+       			 </ul>
+        			</li>
+        		</ul>
+        </div>
+        </div>
+        <div class="nine">
+        	<div class="ten">
+        		<div class="dao">
+        		<ul class="nav2 clear">
+                    		<li ><a href="#" class="one kk" last>精品推荐 </a></li>
+                    		<li ><a href="#" class="one">JQuery</a></li>
+                    		<li ><a href="#" class="one">Spark</a></li>
+                    		<li ><a href="#" class="one">MySQL</a></li>
+                    		<li ><a href="#" class="one">JAVAWeb</a></li>
+                    		<li ><a href="#" class="one">MySQL</a></li>
+                    		<li ><a href="#" class="one ">JavaWeb</a></li>
+
+                </ul>
+                <a href="#" class="one jing">修改兴趣</a>
+            </div>
+        	</div>
+        	<div class="leven">
+        		<div class="han">
+        		<ul class="nav3 clear">
+                    		<li class="han1">精品推荐</li>
+                    		<li class="han2">查看全部</li>
+                </ul>
+            </div>
+        	</div>
+        	<div class="twle">
+        		<div class="tu clear">
+        			<ul class="nav4 clear ">
+        				<li><a href="#"><img src="图层 133.png" class="img"></a></li>
+        			<div class="zi">
+        				<li class="yi"><a href="#" class="one kk"><img src="Think PHP 5.0 博客系统实战项目演练       .png"></a></li>
+						<li class="yi2"><img src="高级  •  1125人在学习.png"></li>
+					</div>
+        			</ul>
+        			<ul class="nav4 clear nav5">
+        				<li><a href="#" class="one kk"><img src="图层 135.png" class="img img6"></a></li>
+        				<div class="zi">	<li class="yi"><a href="#" class="one kk"><img src="Android 网络图片加载框架详解  .png"></a></li>
+						<li class="yi2"><img src="高级  •  1125人在学习.png"></li>
+					</div>
+        			</ul>
+        			<ul class="nav4 clear  nav5">
+        				<li><a href="#" class="one kk"><img src="图层 136.png" class="img img6"></a></li>
+        				<div class="zi"><li class="yi"><a href="#" class="one kk"><img src="Angular 2 最新框架+主流技术+项目实战  .png"></a></li>
+						<li class="yi2"><img src="高级  •  1125人在学习.png"></li>
+					</div>
+        			</ul>
+        			<ul class="nav4 clear  nav5">
+        				<li><a href="#" class="one kk"><img src="图层 137.png" class="img img6"></a></li>
+        				<div class="zi"><li class="yi"><a href="#" class="one kk"><img src="Android Hybrid APP开发实战 H5+原生！.png"></a></li>
+						<li class="yi2"><img src="高级  •  1125人在学习.png"></li>
+					</div>
+        			</ul>
+        			<ul class="nav4 clear  nav5">
+        				<li><a href="#" class="one kk"><img src="图层 137.png" class="img img6"></a></li>
+        				<div class="zi"><li class="yi"><a href="#" class="one kk"><img src="Android Hybrid APP开发实战 H5+原生！.png"></a></li>
+						<li class="yi2"><img src="高级  •  1125人在学习.png"></li>
+					</div>
+        			</ul>
+        		</div>
+        	</div>
+        	<div class="twle hh">
+        		<div class="tu clear">
+        			<ul class="nav4 clear ">
+        				<li><a href="#"><img src="图层 133.png" class="img"></a></li>
+        			<div class="zi">
+        				<li class="yi"><a href="#" class="one kk"><img src="Think PHP 5.0 博客系统实战项目演练       .png"></a></li>
+						<li class="yi2"><img src="高级  •  1125人在学习.png"></li>
+					</div>
+        			</ul>
+        			<ul class="nav4 clear nav5">
+        				<li><a href="#" class="one kk"><img src="图层 135.png" class="img img6"></a></li>
+        				<div class="zi">	<li class="yi"><a href="#" class="one kk"><img src="Android 网络图片加载框架详解  .png"></a></li>
+						<li class="yi2"><img src="高级  •  1125人在学习.png"></li>
+					</div>
+        			</ul>
+        			<ul class="nav4 clear  nav5">
+        				<li><a href="#" class="one kk"><img src="图层 136.png" class="img img6"></a></li>
+        				<div class="zi"><li class="yi"><a href="#" class="one kk"><img src="Angular 2 最新框架+主流技术+项目实战  .png"></a></li>
+						<li class="yi2"><img src="高级  •  1125人在学习.png"></li>
+					</div>
+        			</ul>
+        			<ul class="nav4 clear  nav5">
+        				<li><a href="#" class="one kk"><img src="图层 137.png" class="img img6"></a></li>
+        				<div class="zi"><li class="yi"><a href="#" class="one kk"><img src="Android Hybrid APP开发实战 H5+原生！.png"></a></li>
+						<li class="yi2"><img src="高级  •  1125人在学习.png"></li>
+					</div>
+        			</ul>
+        			<ul class="nav4 clear  nav5">
+        				<li><a href="#" class="one kk"><img src="图层 137.png" class="img img6"></a></li>
+        				<div class="zi"><li class="yi"><a href="#" class="one kk"><img src="Android Hybrid APP开发实战 H5+原生！.png"></a></li>
+						<li class="yi2"><img src="高级  •  1125人在学习.png"></li>
+					</div>
+        			</ul>
+        		</div>
+        	</div>
+        	<div class="thirteen">
+        		<div class="next">
+        			<ul class="nav6 clear">
+        				<li class="zi5">
+        				<a href="#" class="one zi2 ">前端开发工程师</a>
+        			   </li>
+        				<li class=" zi4 zi7">
+        					<a href="#" class="one" >热门</a>
+        				</li>
+        				<li class=" zi4 zi8">
+        					<a href="#" class="one">初级</a>
+        				</li>
+        				<li class=" zi4 zi9">
+        					<a href="#" class="one">中级</a>
+        				</li>
+        				<li class=" zi4 zi10">
+        					<a href="#" class="one">高级</a>
+        				</li>
+        				<li >
+        				<a href="#" class="one zi3">查看全部</a>
+        			   </li>
+        			</ul>
+        		</div>
+        	</div>
+        	<div class="twle hh hh1">
+        		<div class="tu clear">
+        			<ul class="nav4 clear ">
+        				<li><a href="#"><img src="图层 142.png" class="img"></a></li>
+        			<div class="zi">
+        				<li class="yi"><a href="#" class="one kk"><img src="微软人工智能-数据分析平台 .png"></a></li>
+						<li class="yi2"><img src="高级  •  1125人在学习.png"></li>
+					</div>
+        			</ul>
+        			<ul class="nav4 clear nav5">
+        				<li><a href="#" class="one kk"><img src="图层 144.png" class="img img6"></a></li>
+        				<div class="zi">	<li class="yi"><a href="#" class="one kk"><img src="Unity Profiler入门     .png"></a></li>
+						<li class="yi2"><img src="高级  •  1125人在学习.png"></li>
+					</div>
+        			</ul>
+        			<ul class="nav4 clear  nav5">
+        				<li><a href="#" class="one kk"><img src="图层 143.png" class="img img6"></a></li>
+        				<div class="zi"><li class="yi"><a href="#" class="one kk"><img src="Cocos2d-x 引擎源码中的纹理优化     .png"></a></li>
+						<li class="yi2"><img src="高级  •  1125人在学习.png"></li>
+					</div>
+        			</ul>
+        			<ul class="nav4 clear  nav5">
+        				<li><a href="#" class="one kk"><img src="图层 146.png" class="img img6"></a></li>
+        				<div class="zi"><li class="yi"><a href="#" class="one kk"><img src="Kami2首页界面切换效果 .png"></a></li>
+						<li class="yi2"><img src="高级  •  1125人在学习.png"></li>
+					</div>
+        			</ul>
+        			<ul class="nav4 clear  nav5">
+        				<li><a href="#" class="one kk"><img src="图层 145.png" class="img img6"></a></li>
+        				<div class="zi"><li class="yi"><a href="#" class="one kk"><img src="Android Hybrid APP开发实战 H5+原生！.png"></a></li>
+						<li class="yi2"><img src="高级  •  1125人在学习.png"></li>
+					</div>
+        			</ul>
+        		</div>
+        	</div>
+        <div class="fourth">
+        	<div class="nav10">
+        	<ul class=“nav11 clear">
+        		<li>
+        			<a href="#" class="one zi12">牛人推荐</a>
+        		</li>
+        	</ul>
+        </div>
+        </div>
+        <div class="five2">
+        	<div class="tu2">
+        		<ul class="nav13 clear">
+        			<li >
+        				<img class="img1 img9" src="图层 149.png ">
+        			</li>
+        			<li>
+        				<img class="img2 img10" src="20172124182104355@2x.png">
+        				<div class="nav50">
+        					<p class="nav51"><span class="da">闻老师&ensp;&ensp;&ensp;&ensp;</span><span class="nav52">大数据</span>
+        						<br>
+							<span class="nav53">高级互联网工程师，曾担任mou物流公司CRM开发团队TL多年JAVEE、大数据领域研发......</span>
+						    </p>
+        				</div>
+        			</li>
+        			<li>
+        				<img class="img3 img10" src="20154025104058710.png">
+        				<div class="nav50">
+        					<p class="nav51"><span class="da">汪老师&ensp;&ensp;&ensp;&ensp;</span><span class="nav52">前段</span>
+        						<br>
+							<span class="nav53">高级软件架构师，全栈开发，多年大型项目管理经验。对WebCommponentx.Node,js......</span>
+						    </p>
+        				</div>
+        			</li>
+        			<li>
+        				<img  class="img4 img10" src="20154325104317144 (1).png">
+        				<div class="nav50">
+        					<p class="nav51"><span class="da">江老师&ensp;&ensp;&ensp;&ensp;</span><span class="nav52">前段</span>
+        						<br>
+							<span class="nav53">多年软件开发经验和教学经验精通html,css,js,asp.net等编程语言和数据库教学.......</span>
+						    </p>
+        				</div>
+        			</li>
+        		</ul>
+        	</div>
+        </div>
+        </div>
+        <div class="lastt">
+        	<div class="secced">
+        		<ul >
+        			<li><a href="#" class="xue nav139 one">雪梨在线</a></li>
+        			<li class="nav141"><img src="致力于普及中国最好的教育,与中国一流大学和机构合作提供在线课程。.png"></li>
+        			<li class="nav140 one"><a href="#" class=" mm">下载APP</a></li>
+        		</ul>
+        		<ul class="guan" >
+        			<li class="nav142"><a href="#" class="one">关于雪梨网</a></li>
+        			<li class="nav143"><a href="#" class="one">关于</a></li>
+        			<li class="nav143"><a href="#" class="one">管理团队</a></li>
+        			<li class="nav143"><a href="#" class="one">工作机会</a></li>
+        			<li class="nav143"><a href="#" class="one">客户服务</a></li>
+        			<li class="nav143"><a href="#" class="one">帮助</a></li>
+        		</ul>
+        		<ul class="xin">
+        			<li class="nav142"><a href="#" class="one">新手指南</a></li>
+        			<li class="nav143"><a href="#" class="one">如何注册</a></li>
+        			<li class="nav143"><a href="#" class="one">如何选课</a></li>
+        			<li class="nav143"><a href="#" class="one">如何拿到毕业证</a></li>
+        			<li class="nav143"><a href="#" class="one">学分是什么</a></li>
+        			<li class="nav143"><a href="#" class="one">考试未通过怎么办</a></li>
+        		</ul>
+        		<ul class="he">
+        			<li class="nav142"><a href="#" class="one">合作伙伴</a></li>
+        			<li class="nav143"><a href="#" class="one">合作导师</a></li>
+        			<li class="nav143"><a href="#" class="one">合作导师</a></li>
+        		</ul>
+        	</div>
+        </div>
+</body>
+</html>
